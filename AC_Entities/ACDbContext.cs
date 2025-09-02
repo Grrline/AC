@@ -1,0 +1,9 @@
+﻿using Microsoft.EntityFrameworkCore;
+
+namespace AC_Entities
+{
+    public class ACDbContext : DbContext
+    {
+        public ACDbContext(DbContextOptions<ACDbContext> options) : base(options) { }
+    }
+}
