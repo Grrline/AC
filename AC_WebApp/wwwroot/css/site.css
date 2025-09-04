@@ -20,3 +20,20 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+
+
+
+.registration-container {
+    place-self: center;
+}
+
+.blackout {
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    opacity: 0.7;
+}
