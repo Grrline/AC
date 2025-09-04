@@ -8,5 +8,6 @@ namespace AC_Entities
         public ACDbContext(DbContextOptions<ACDbContext> options) : base(options) { }
 
         public DbSet<User> Users { get; set; }
+        public DbSet<Advert> Adverts { get; set; }
     }
 }

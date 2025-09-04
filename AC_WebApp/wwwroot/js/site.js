@@ -2,3 +2,8 @@
 // for details on configuring this project to bundle and minify static web assets.
 
 // Write your JavaScript code.
+
+function onClickCheck() {
+    const button = document.getElementById('checkButton');
+    button.hidden = true;
+}
