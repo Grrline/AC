@@ -24,16 +24,16 @@ body {
 
 
 
-.registration-container {
+.registration-main-container {
     place-self: center;
+    background-color: ghostwhite;
+    height: 500px;
+    width: 850px;
 }
 
-.blackout {
-    background-color: black;
-    height: 100%;
-    width: 100%;
-    position: fixed;
-    top: 0px;
-    left: 0px;
-    opacity: 0.7;
+.registration-stick {
+    place-self: center;
+    background-color: lightgray;
+    height: 500px;
+    width: 3px;
 }
