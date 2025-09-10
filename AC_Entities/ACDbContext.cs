@@ -9,5 +9,6 @@ namespace AC_Entities
 
         public DbSet<User> Users { get; set; }
         public DbSet<Advert> Adverts { get; set; }
+        public DbSet<Resume> Resumes { get; set; }
     }
 }
