@@ -20,20 +20,3 @@ html {
 body {
   margin-bottom: 60px;
 }
-
-
-
-
-.registration-main-container {
-    place-self: center;
-    background-color: ghostwhite;
-    height: 500px;
-    width: 850px;
-}
-
-.registration-stick {
-    place-self: center;
-    background-color: lightgray;
-    height: 500px;
-    width: 3px;
-}
