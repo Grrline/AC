@@ -1,11 +1,19 @@
 @AC_API_HostAddress = http://localhost:5295
 
-GET {{AC_API_HostAddress}}/weatherforecast/
-Accept: application/json
+POST {{AC_API_HostAddress}}/auth/register
+Content-Type: application/json
+{
+    "Name": "Василий Иванов",
+    "Surname": "Иванов",
+    "Password": "StrongPassw0rd!"
+}
 
 ###
 
-GET {{AC_API_HostAddress}}/user/
-Accept: application/json
+POST {{AC_API_HostAddress}}/auth/login
+Content-Type: application/json
 
-###
+{
+    "Name": "Василий Иванов",
+    "Password": "StrongPassw0rd!"
+}
